@@ -1,8 +1,8 @@
 FROM qzivli/chicken-base
 
-RUN chicken-install spiffy
+RUN chicken-install spiffy awful
 
 ADD csirc /root/.csirc
 
-# (system "bash")
 CMD ["csi", "-q"]
+
