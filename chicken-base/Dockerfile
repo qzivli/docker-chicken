@@ -10,5 +10,5 @@ RUN apt-get update && \
 
 ADD csirc /root/.csirc
 
-CMD ["csi", "-q"]
+CMD ["csi", "-R", "r7rs", "-q", "-w"]
 
